@@ -1,13 +1,14 @@
 body{
   font: 18px Arial, Helvetica,sans-serif;
-  padding:0;
-  margin:0;
-  background-color:#A4f4E4;
+  padding:20;
+  margin:15;
+  background-color:#cda434;
+  text-align: center;
 }
 
 /* Estilos globales */
 .contenedor{
-  width:80%;
+  width:90%;
   margin:auto;
   overflow:hidden;
 }
@@ -23,24 +24,24 @@ ul{
   border:0;
   padding-left: 20px;
   padding-right:20px;
-  color:#ffffff;
+  color:#Ffffff;
 }
 
 .oscuro{
   padding:16px;
   background:#35424a;
-  color:#ffffff;
+  color:#ffffcc;
   margin-top:10px;
   margin-bottom:10px;
 }
 
 /* Encabezado **/
 header{
-  background:#24233b;
-  color:#fcfcfc;
-  padding-top:30px;
+  background:#4b3621;
+  color:#efb810;
+  padding-top:10px;
   min-height:70px;
-  border-bottom:#1083d5 5px solid;
+  border-bottom:#1083d5 10px solid;
 }
 
 header a{
@@ -53,7 +54,7 @@ header a{
 header li{
   float:left;
   display:inline;
-  padding: 0 20px 0 20px;
+  padding: 14 100px 10 200px;
 }
 
 header #marca{
@@ -61,12 +62,12 @@ header #marca{
 }
 
 header #marca h1{
-  margin:0;
+  margin:10;
 }
 
 header nav{
   float:right;
-  margin-top:12px;
+  margin-top:-10px;
 }
 
 header .resaltado, header .actual a{
@@ -82,7 +83,7 @@ header a:hover{
 /* Cabecera con imagen */
 #cabecera{
   min-height:550px;
-  background:url("../img/fernand.JPG") no-repeat 0 -0px;
+  background:url("../img/osmin.JPG") no-repeat 0 -880px;
   text-align:center;
   color:#faf0e6;
 }
@@ -99,9 +100,9 @@ header a:hover{
 
 /* Formulario */
 #boletin{
-  padding:10px;
-  color:#ccc0c0;
-  background:#FF6347;
+  padding:20px;
+  color:#cFF0c0;
+  background:#2b2926;
 }
 
 #boletin h1{
@@ -113,33 +114,34 @@ header a:hover{
   margin-top:18px;
 }
 
-#boletin input[type="email"]{
+#boletin input[type="EMAIL"]{
   padding:4px;
-  height:20px;
+  height:30px;
   width:250px;
 }
 
 /* Cajas */
 #cajas{
-  margin-top:28px;
+  margin-top:100px;
+  background-color:#cda434;
 }
 
 #cajas .caja{
   float:left;
   text-align: center;
-  width:30%;
-  padding:10px;
+  width:5%;
+  padding:26px;
 }
 
 #cajas .caja img{
-  width:90px;
+  width:100px;
 }
 
 /* Lateral */
 aside#lateral{
   float:right;
   width:30%;
-  margin-top:10px;
+  margin-top:150px;
 }
 
 /* Main-col */
@@ -151,17 +153,17 @@ article#main-col{
 /* Servicios */
 ul#servicios li{
   list-style: none;
-  padding:20px;
-  border: #cccccc solid 1px;
-  margin-bottom:5px;
-  background:#e6e6e6;
+  padding:30px;
+  border:#245fff solid 1px;
+  margin-bottom:20px;
+  background:#179a29;
 }
 
 footer{
-  padding:20px;
-  margin-top:20px;
-  color:#ffffff;
-  background-color:#1293d4;
+  padding:5px;
+  margin-top:0px;
+  color:#cFF0c0;
+  background-color:#4b3621;
   text-align: center;
 }
 
@@ -171,8 +173,9 @@ footer{
 input, textarea{
   width: 100%;
   height: 35px;
-  border: 1px solid gray; 
+  border: 5px solid  red yellow; 
   margin-bottom: 5px;
+  background:#0a0a0a;
 }
 
 textarea{
@@ -180,8 +183,8 @@ textarea{
 }
 
 input[type='submit']{
-  background-color: #e8491d;
-  color: #fff;  
+  background-color: #4b3333;
+  color: #FFF;  
 }
 
 /* Media Queries */
@@ -212,7 +215,7 @@ input[type='submit']{
     width:100%;
   }
 
-  #boletin form input[type="email"]{
+  #boletin form input[type="EMAIL"]{
     width:100%;
     margin-bottom:5px;
   }
